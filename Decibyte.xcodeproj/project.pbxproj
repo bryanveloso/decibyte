@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		93357C9F17B09FA000A59A6F /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93357C9417B09F9900A59A6F /* ReactiveCocoa.framework */; };
+		93C2C0B317B17A4C003A2B24 /* ReactiveViewModel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93C2C0AC17B17A3F003A2B24 /* ReactiveViewModel.framework */; };
+		93C2C0B417B17A51003A2B24 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C2C0AC17B17A3F003A2B24 /* ReactiveViewModel.framework */; };
 		93D9A87E17B07D16006E353E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A87C17B07D16006E353E /* InfoPlist.strings */; };
 		93D9A88017B07D16006E353E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A87F17B07D16006E353E /* main.m */; };
 		93D9A88417B07D16006E353E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A88217B07D16006E353E /* Credits.rtf */; };
@@ -67,6 +69,34 @@
 			proxyType = 2;
 			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
 			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		93C2C0AB17B17A3F003A2B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0948A3B178159AD00BA8F23;
+			remoteInfo = "ReactiveViewModel Mac";
+		};
+		93C2C0AD17B17A3F003A2B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0948A53178159AD00BA8F23;
+			remoteInfo = "ReactiveViewModel Mac Tests";
+		};
+		93C2C0AF17B17A3F003A2B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0948A8D178159F900BA8F23;
+			remoteInfo = "ReactiveViewModel iOS";
+		};
+		93C2C0B117B17A3F003A2B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0948A9C178159F900BA8F23;
+			remoteInfo = "ReactiveViewModel iOS Tests";
 		};
 		93FD761417B09E1C0040EE69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -136,6 +166,7 @@
 				93FD763417B09E490040EE69 /* Archimedes.framework in CopyFiles */,
 				93357C9F17B09FA000A59A6F /* ReactiveCocoa.framework in CopyFiles */,
 				93FD763617B09E540040EE69 /* ReactiveCocoaLayout.framework in CopyFiles */,
+				93C2C0B317B17A4C003A2B24 /* ReactiveViewModel.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +174,7 @@
 
 /* Begin PBXFileReference section */
 		93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveViewModel.xcodeproj; path = External/ReactiveViewModel/ReactiveViewModel.xcodeproj; sourceTree = "<group>"; };
 		93D9A87017B07D16006E353E /* Decibyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decibyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D9A87317B07D16006E353E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		93D9A87617B07D16006E353E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -175,6 +207,7 @@
 				93FD75ED17B09AA40040EE69 /* Cocoa.framework in Frameworks */,
 				93E72D4C17B0B8EF002ADE45 /* ReactiveCocoa.framework in Frameworks */,
 				93E72D4D17B0B8F8002ADE45 /* ReactiveCocoaLayout.framework in Frameworks */,
+				93C2C0B417B17A51003A2B24 /* ReactiveViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +223,17 @@
 				93357C9A17B09F9900A59A6F /* ReactiveCocoaTests-iOS.octest */,
 				93357C9C17B09F9900A59A6F /* ReactiveCocoa-iOS-UIKitTestHost.app */,
 				93357C9E17B09F9900A59A6F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C2C09217B17A3E003A2B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C2C0AC17B17A3F003A2B24 /* ReactiveViewModel.framework */,
+				93C2C0AE17B17A3F003A2B24 /* ReactiveViewModel Mac Tests.octest */,
+				93C2C0B017B17A3F003A2B24 /* libReactiveViewModel.a */,
+				93C2C0B217B17A3F003A2B24 /* ReactiveViewModel iOS Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -299,6 +343,7 @@
 				93FD762417B09E290040EE69 /* Archimedes.xcodeproj */,
 				93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */,
 				93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */,
+				93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */,
 			);
 			name = "External Frameworks";
 			sourceTree = "<group>";
@@ -379,6 +424,10 @@
 					ProductGroup = 93FD760617B09E1C0040EE69 /* Products */;
 					ProjectRef = 93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */;
 				},
+				{
+					ProductGroup = 93C2C09217B17A3E003A2B24 /* Products */;
+					ProjectRef = 93C2C09117B17A3E003A2B24 /* ReactiveViewModel.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -428,6 +477,34 @@
 			fileType = wrapper.cfbundle;
 			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
 			remoteRef = 93357C9D17B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93C2C0AC17B17A3F003A2B24 /* ReactiveViewModel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveViewModel.framework;
+			remoteRef = 93C2C0AB17B17A3F003A2B24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93C2C0AE17B17A3F003A2B24 /* ReactiveViewModel Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveViewModel Mac Tests.octest";
+			remoteRef = 93C2C0AD17B17A3F003A2B24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93C2C0B017B17A3F003A2B24 /* libReactiveViewModel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactiveViewModel.a;
+			remoteRef = 93C2C0AF17B17A3F003A2B24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93C2C0B217B17A3F003A2B24 /* ReactiveViewModel iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveViewModel iOS Tests.octest";
+			remoteRef = 93C2C0B117B17A3F003A2B24 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		93FD761517B09E1C0040EE69 /* ReactiveCocoaLayout.framework */ = {
