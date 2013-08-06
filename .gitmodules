@@ -1,9 +1,12 @@
 [submodule "External/ReactiveCocoaLayout"]
 	path = External/ReactiveCocoaLayout
 	url = https://github.com/ReactiveCocoa/ReactiveCocoaLayout.git
+	ignore = dirty
 [submodule "External/ReactiveViewModel"]
 	path = External/ReactiveViewModel
 	url = https://github.com/ReactiveCocoa/ReactiveViewModel.git
+	ignore = dirty
 [submodule "External/ReactiveCocoa"]
 	path = External/ReactiveCocoa
 	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+	ignore = dirty
