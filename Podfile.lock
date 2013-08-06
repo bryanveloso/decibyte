@@ -1,0 +1,13 @@
+PODS:
+  - CNSplitView (0.1.7)
+  - INAppStoreWindow (1.2)
+
+DEPENDENCIES:
+  - CNSplitView (~> 0.1.7)
+  - INAppStoreWindow (~> 1.2)
+
+SPEC CHECKSUMS:
+  CNSplitView: 13923301d0aaa4d368c6c590d04a2faeea5f4009
+  INAppStoreWindow: d00327caee47d951043169df9aaab952389defcb
+
+COCOAPODS: 0.22.3
