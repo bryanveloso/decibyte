@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93D9A87417B07D16006E353E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D9A87317B07D16006E353E /* Cocoa.framework */; };
+		93357C9F17B09FA000A59A6F /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93357C9417B09F9900A59A6F /* ReactiveCocoa.framework */; };
 		93D9A87E17B07D16006E353E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A87C17B07D16006E353E /* InfoPlist.strings */; };
 		93D9A88017B07D16006E353E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A87F17B07D16006E353E /* main.m */; };
 		93D9A88417B07D16006E353E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A88217B07D16006E353E /* Credits.rtf */; };
@@ -15,9 +15,134 @@
 		93D9A88A17B07D17006E353E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A88817B07D17006E353E /* MainMenu.xib */; };
 		93D9A88D17B07D17006E353E /* Decibyte.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A88B17B07D17006E353E /* Decibyte.xcdatamodeld */; };
 		93D9A89617B07E73006E353E /* DecibyteApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A89517B07E73006E353E /* DecibyteApplication.m */; };
+		93E72D4117B0B8E9002ADE45 /* Archimedes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FD762C17B09E290040EE69 /* Archimedes.framework */; };
+		93E72D4C17B0B8EF002ADE45 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93357C9417B09F9900A59A6F /* ReactiveCocoa.framework */; };
+		93E72D4D17B0B8F8002ADE45 /* ReactiveCocoaLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FD761517B09E1C0040EE69 /* ReactiveCocoaLayout.framework */; };
+		93E72D7517B0B979002ADE45 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E72D7417B0B979002ADE45 /* Window.xib */; };
+		93E72D7817B0BD94002ADE45 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E72D7717B0BD94002ADE45 /* WindowController.m */; };
+		93FD75ED17B09AA40040EE69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D9A87317B07D16006E353E /* Cocoa.framework */; };
+		93FD763417B09E490040EE69 /* Archimedes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93FD762C17B09E290040EE69 /* Archimedes.framework */; };
+		93FD763617B09E540040EE69 /* ReactiveCocoaLayout.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93FD761517B09E1C0040EE69 /* ReactiveCocoaLayout.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		93357C9317B09F9900A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		93357C9517B09F9900A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		93357C9717B09F9900A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		93357C9917B09F9900A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		93357C9B17B09F9900A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		93357C9D17B09F9900A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		93FD761417B09E1C0040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0BB24711678772C005E9371;
+			remoteInfo = "ReactiveCocoaLayout Mac";
+		};
+		93FD761617B09E1C0040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0BB24891678772C005E9371;
+			remoteInfo = "ReactiveCocoaLayout Mac Tests";
+		};
+		93FD761817B09E1C0040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D06269ED1679440C00E951A5;
+			remoteInfo = "ReactiveCocoaLayout iOS";
+		};
+		93FD761A17B09E1C0040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D06269FB1679440C00E951A5;
+			remoteInfo = "ReactiveCocoaLayout iOS Tests";
+		};
+		93FD762B17B09E290040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD762417B09E290040EE69 /* Archimedes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0D628EA17790B29008EF295;
+			remoteInfo = "Archimedes Mac";
+		};
+		93FD762D17B09E290040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD762417B09E290040EE69 /* Archimedes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0D6290017790B2A008EF295;
+			remoteInfo = "Archimedes Mac Tests";
+		};
+		93FD762F17B09E290040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD762417B09E290040EE69 /* Archimedes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D02FAF8F1635DFD8008D42D9;
+			remoteInfo = "Archimedes iOS";
+		};
+		93FD763117B09E290040EE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FD762417B09E290040EE69 /* Archimedes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D02FAF9D1635DFD9008D42D9;
+			remoteInfo = "Archimedes iOS Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93FD763317B09E450040EE69 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				93FD763417B09E490040EE69 /* Archimedes.framework in CopyFiles */,
+				93357C9F17B09FA000A59A6F /* ReactiveCocoa.framework in CopyFiles */,
+				93FD763617B09E540040EE69 /* ReactiveCocoaLayout.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
 		93D9A87017B07D16006E353E /* Decibyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decibyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D9A87317B07D16006E353E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		93D9A87617B07D16006E353E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -34,6 +159,11 @@
 		93D9A88C17B07D17006E353E /* Decibyte.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Decibyte.xcdatamodel; sourceTree = "<group>"; };
 		93D9A89417B07E73006E353E /* DecibyteApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecibyteApplication.h; sourceTree = "<group>"; };
 		93D9A89517B07E73006E353E /* DecibyteApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecibyteApplication.m; sourceTree = "<group>"; };
+		93E72D7417B0B979002ADE45 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		93E72D7617B0BD94002ADE45 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		93E72D7717B0BD94002ADE45 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoaLayout.xcodeproj; path = External/ReactiveCocoaLayout/ReactiveCocoaLayout.xcodeproj; sourceTree = "<group>"; };
+		93FD762417B09E290040EE69 /* Archimedes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Archimedes.xcodeproj; path = External/ReactiveCocoaLayout/External/Archimedes/Archimedes.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +171,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D9A87417B07D16006E353E /* Cocoa.framework in Frameworks */,
+				93E72D4117B0B8E9002ADE45 /* Archimedes.framework in Frameworks */,
+				93FD75ED17B09AA40040EE69 /* Cocoa.framework in Frameworks */,
+				93E72D4C17B0B8EF002ADE45 /* ReactiveCocoa.framework in Frameworks */,
+				93E72D4D17B0B8F8002ADE45 /* ReactiveCocoaLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93357C8917B09F9900A59A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93357C9417B09F9900A59A6F /* ReactiveCocoa.framework */,
+				93357C9617B09F9900A59A6F /* libReactiveCocoa-iOS.a */,
+				93357C9817B09F9900A59A6F /* ReactiveCocoaTests.octest */,
+				93357C9A17B09F9900A59A6F /* ReactiveCocoaTests-iOS.octest */,
+				93357C9C17B09F9900A59A6F /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				93357C9E17B09F9900A59A6F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		93D9A86717B07D16006E353E = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +202,7 @@
 				93D9A87117B07D16006E353E /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		93D9A87117B07D16006E353E /* Products */ = {
 			isa = PBXGroup;
@@ -68,7 +215,7 @@
 		93D9A87217B07D16006E353E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93D9A87317B07D16006E353E /* Cocoa.framework */,
+				93FD75EC17B09A970040EE69 /* External Frameworks */,
 				93D9A87517B07D16006E353E /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -79,6 +226,7 @@
 			children = (
 				93D9A87617B07D16006E353E /* AppKit.framework */,
 				93D9A87717B07D16006E353E /* CoreData.framework */,
+				93D9A87317B07D16006E353E /* Cocoa.framework */,
 				93D9A87817B07D16006E353E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -110,8 +258,7 @@
 		93D9A89317B07D33006E353E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				93D9A88517B07D16006E353E /* ApplicationController.h */,
-				93D9A88617B07D16006E353E /* ApplicationController.m */,
+				93E72D7917B0BDA1002ADE45 /* Controllers */,
 				93D9A89417B07E73006E353E /* DecibyteApplication.h */,
 				93D9A89517B07E73006E353E /* DecibyteApplication.m */,
 			);
@@ -123,15 +270,59 @@
 			children = (
 				93D9A89817B07EAB006E353E /* NIBs */,
 			);
-			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		93D9A89817B07EAB006E353E /* NIBs */ = {
 			isa = PBXGroup;
 			children = (
 				93D9A88817B07D17006E353E /* MainMenu.xib */,
+				93E72D7417B0B979002ADE45 /* Window.xib */,
 			);
-			name = NIBs;
+			path = NIBs;
+			sourceTree = "<group>";
+		};
+		93E72D7917B0BDA1002ADE45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93D9A88517B07D16006E353E /* ApplicationController.h */,
+				93D9A88617B07D16006E353E /* ApplicationController.m */,
+				93E72D7617B0BD94002ADE45 /* WindowController.h */,
+				93E72D7717B0BD94002ADE45 /* WindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		93FD75EC17B09A970040EE69 /* External Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FD762417B09E290040EE69 /* Archimedes.xcodeproj */,
+				93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */,
+				93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */,
+			);
+			name = "External Frameworks";
+			sourceTree = "<group>";
+		};
+		93FD760617B09E1C0040EE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FD761517B09E1C0040EE69 /* ReactiveCocoaLayout.framework */,
+				93FD761717B09E1C0040EE69 /* ReactiveCocoaLayout Mac Tests.octest */,
+				93FD761917B09E1C0040EE69 /* libReactiveCocoaLayout iOS.a */,
+				93FD761B17B09E1C0040EE69 /* ReactiveCocoaLayout iOS Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FD762517B09E290040EE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FD762C17B09E290040EE69 /* Archimedes.framework */,
+				93FD762E17B09E290040EE69 /* Archimedes Mac Tests.octest */,
+				93FD763017B09E290040EE69 /* libArchimedes-iOS.a */,
+				93FD763217B09E290040EE69 /* Archimedes iOS Tests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +335,7 @@
 				93D9A86C17B07D16006E353E /* Sources */,
 				93D9A86D17B07D16006E353E /* Frameworks */,
 				93D9A86E17B07D16006E353E /* Resources */,
+				93FD763317B09E450040EE69 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -174,12 +366,127 @@
 			mainGroup = 93D9A86717B07D16006E353E;
 			productRefGroup = 93D9A87117B07D16006E353E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93FD762517B09E290040EE69 /* Products */;
+					ProjectRef = 93FD762417B09E290040EE69 /* Archimedes.xcodeproj */;
+				},
+				{
+					ProductGroup = 93357C8917B09F9900A59A6F /* Products */;
+					ProjectRef = 93357C8817B09F9900A59A6F /* ReactiveCocoa.xcodeproj */;
+				},
+				{
+					ProductGroup = 93FD760617B09E1C0040EE69 /* Products */;
+					ProjectRef = 93FD760517B09E1C0040EE69 /* ReactiveCocoaLayout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				93D9A86F17B07D16006E353E /* Decibyte */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		93357C9417B09F9900A59A6F /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 93357C9317B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93357C9617B09F9900A59A6F /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 93357C9517B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93357C9817B09F9900A59A6F /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 93357C9717B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93357C9A17B09F9900A59A6F /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 93357C9917B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93357C9C17B09F9900A59A6F /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 93357C9B17B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93357C9E17B09F9900A59A6F /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 93357C9D17B09F9900A59A6F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD761517B09E1C0040EE69 /* ReactiveCocoaLayout.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoaLayout.framework;
+			remoteRef = 93FD761417B09E1C0040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD761717B09E1C0040EE69 /* ReactiveCocoaLayout Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaLayout Mac Tests.octest";
+			remoteRef = 93FD761617B09E1C0040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD761917B09E1C0040EE69 /* libReactiveCocoaLayout iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoaLayout iOS.a";
+			remoteRef = 93FD761817B09E1C0040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD761B17B09E1C0040EE69 /* ReactiveCocoaLayout iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaLayout iOS Tests.octest";
+			remoteRef = 93FD761A17B09E1C0040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD762C17B09E290040EE69 /* Archimedes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Archimedes.framework;
+			remoteRef = 93FD762B17B09E290040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD762E17B09E290040EE69 /* Archimedes Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Archimedes Mac Tests.octest";
+			remoteRef = 93FD762D17B09E290040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD763017B09E290040EE69 /* libArchimedes-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libArchimedes-iOS.a";
+			remoteRef = 93FD762F17B09E290040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FD763217B09E290040EE69 /* Archimedes iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Archimedes iOS Tests.octest";
+			remoteRef = 93FD763117B09E290040EE69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		93D9A86E17B07D16006E353E /* Resources */ = {
@@ -189,6 +496,7 @@
 				93D9A87E17B07D16006E353E /* InfoPlist.strings in Resources */,
 				93D9A88417B07D16006E353E /* Credits.rtf in Resources */,
 				93D9A88A17B07D17006E353E /* MainMenu.xib in Resources */,
+				93E72D7517B0B979002ADE45 /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +511,7 @@
 				93D9A88717B07D16006E353E /* ApplicationController.m in Sources */,
 				93D9A88D17B07D17006E353E /* Decibyte.xcdatamodeld in Sources */,
 				93D9A89617B07E73006E353E /* DecibyteApplication.m in Sources */,
+				93E72D7817B0BD94002ADE45 /* WindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +540,7 @@
 				93D9A88917B07D17006E353E /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -340,6 +649,7 @@
 				93D9A89217B07D17006E353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
