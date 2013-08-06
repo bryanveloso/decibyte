@@ -6,7 +6,13 @@
 //  Copyright (c) 2013 Revyver, Inc. All rights reserved.
 //
 
+#import "WindowController.h"
+
 #import "ApplicationController.h"
+
+@interface ApplicationController ()
+@property (nonatomic, strong) WindowController *windowController;
+@end
 
 @implementation ApplicationController
 
@@ -16,7 +22,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+	WindowController *windowController = [[WindowController alloc] init];
+	[self setWindowController:windowController];
+	[self.windowController showWindow:self];
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "com.revyver.Decibyte" in the user's Application Support directory.
