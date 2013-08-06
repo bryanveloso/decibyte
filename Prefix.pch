@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Decibyte' target in the 'Decibyte' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
